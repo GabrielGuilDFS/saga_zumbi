@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,900;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{ 
+    background-color:rgb(46, 46, 46) ;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.titulo {
+    color: aquamarine;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo_arma{
+font-family: Raleway;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+margin-bottom: 30px;    
+margin: 100px;
+
+}
+.titulo_mapa {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#cabecalho {
+    background-color: black;
+   
+    margin-bottom: 30px;
+}
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#cabecalho .container img{
+ width: 100px;
+ height: 70px;
+ 
+}
+#cabecalho #menu ul {
+    display: flex;
+}
+#cabecalho #menu li {
+    list-style: none;
+}
+#cabecalho #menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #CCC;
+    transition: all .3s linear;
+}
+#cabecalho #menu a:hover{
+    background-color: rgb(44, 44, 44);
+}
+#historia {
+    border-radius: 3%;
+    padding-bottom: 500px;
+    background-color:black ;
+    border:7px solid  rgb(31, 31, 31) ;
+    margin: 20px;
+}
+#videos .container .titulo_arma{
+    margin: 25px;
+}
+#videos .container {
+    border-radius: 10px;
+    padding-bottom: 100px;
+    background-color:black ;
+    border:7px solid  rgb(31, 31, 31) ;
+    margin: 100px;
+}
+#videos .container p{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#videos .container iframe{
+    margin-left: 285px;
+}
+#historia img {
+    margin-left: 350px;
+    width: 500px;
+    border-radius: 20px;
+    list-style: none;
+}
+#banners .container li{
+    list-style: none;
+}
+#banners .container {
+    margin: 30px;
+    margin-left: 80px;
+}
+#historia p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+#historiaa .container img{
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    
+}
+#historiaa .container p{
+    text-align: left;
+    width: 800px;
+    margin-left: 50px;
+}
+#historiaa .container{
+    border-radius: 10px;
+    padding-bottom: 100px;
+    background-color:black ;
+    border:7px solid  rgb(31, 31, 31) ;
+    margin-left: 76px;
+}
+#personagem .container img{
+    display: block;
+    width: 300px;
+    height: 400px;
+    transition: all .3s linear;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#personagem .container{
+    border-radius: 30px;
+    background-color:black ;
+    border:7px solid  rgb(31, 31, 31) ;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+#mapa .container{
+    border-radius: 30px;
+    background-color:black ;
+    border:7px solid  rgb(31, 31, 31) ;
+    margin-bottom: 10px;
+    padding: 30px;
+
+}
+#mapa .container img{
+    display: block;
+    width: 50%;
+    height: 200px;
+    transition: all .3s linear;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+#mapa .container p{
+    width: 100%;
+    margin: 20px;
+}
+#mapa .container img:hover{
+    transform: scale(0.9);
+    
+}
+#rodape {
+    background-color:gray;
+    padding: 50px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+
+#rodape a {
+    color: #06C;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
